@@ -1,16 +1,9 @@
-# bookly
+# bookly-App
 
-A new Flutter project.
+A new Flutter project With dart language.
 
-## Getting Started
+A Flutter book selling application follows the Single Responsibility Principle and uses the MVVM (Model-View-ViewModel) pattern to detail the different roles of each part of the application. The application loads data using the Service Locator Pattern.
 
-This project is a starting point for a Flutter application.
+The user interface of the application is characterized by smooth navigation and browsing, where the user can easily browse books and search for books they want to purchase. The user can add books they want to their shopping cart, and securely make payments using various supported payment services.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Books are loaded using the Service Locator technique, where the user selects the service used, and data is loaded over the network more quickly and efficiently. Books are loaded in the background using the block-animation library and displayed to the user when the process is complete.
